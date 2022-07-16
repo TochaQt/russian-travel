@@ -17,8 +17,6 @@
 
 @media screen and (max-width: 675px) {
     .lead__subtitle {
-        font-size: 40px;
-        line-height: 44px;
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 40px;
