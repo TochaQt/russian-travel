@@ -1,0 +1,27 @@
+.facts {
+    max-width: 984px;
+    margin: 0 auto;
+    color: white;
+    padding: 92px 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .facts {
+        max-width: calc(100% - (48*2));
+        padding: 92px 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .facts {
+        max-width: calc(100% - (24*2));
+        padding: 88px 24px;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .facts {
+        max-width: calc(100% - (16*2));
+        padding: 64px 16px;
+    }
+}

@@ -1,0 +1,20 @@
+.places__link {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    transition: opacity, 0.5s;
+}
+
+.places__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 675px) {
+    .places__link {
+    padding: 0 16px;
+    }
+ }
