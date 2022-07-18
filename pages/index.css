@@ -1,5 +1,4 @@
 @import url(../vendor/normalize.css);
-@import url(../blocks/scrollbar/scrollbar.css);
 @import url(../vendor/fonts/Inter/inter.css);
 @import url(../blocks/main/main.css);
 @import url(../blocks/page/page.css);
@@ -13,11 +12,11 @@
 @import url(../blocks/lead/__img/lead__img.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
-@import url(../blocks/facts/facts.css);
-@import url(../blocks/facts/__li-span/facts__li-span.css);
-@import url(../blocks/facts/__text/facts__text.css);
-@import url(../blocks/facts/__title/fact__title.css);
-@import url(../blocks/facts/__ul/facts__ul.css);
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__li-span/intro__li-span.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__ul/intro__ul.css);
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__img/gallery__img.css);
 @import url(../blocks/places/places.css);

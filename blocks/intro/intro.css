@@ -1,4 +1,4 @@
-.facts {
+.intro {
     max-width: 984px;
     margin: 0 auto;
     color: white;
@@ -6,21 +6,21 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .facts {
+    .intro {
         max-width: calc(100% - 96px);
         padding: 92px 48px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .facts {
+    .intro {
         max-width: calc(100% - 48px);
         padding: 88px 24px;
     }
 }
 
 @media screen and (max-width: 675px) {
-    .facts {
+    .intro {
         max-width: calc(100% - 32px);
         padding: 64px 16px;
     }

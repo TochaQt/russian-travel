@@ -1,25 +1,25 @@
 .gallery__img {
-    width: 284px;
-    height: 213px;
+    max-width: 279px;
+    max-height: auto;
 }
 
 @media screen and (max-width: 1024px) {
    .gallery__img {
-    width: 300px;
-    height: 225px;
+    max-width: 294px;
+    max-height: auto;
    }
 }
 
 @media screen and (max-width: 768px) {
     .gallery__img {
-     width: 352px;
-     height: 264px;
+     max-width: 343px;
+     max-height: auto;
     }
  }
 
  @media screen and (max-width: 675px) {
     .gallery__img {
-     width: 288px;
-     height: 216px;
+     max-width: 288px;
+     max-height: auto;
     }
  }
