@@ -1,24 +1,24 @@
-.gallery__img {
+.photo-grid__img {
     max-width: 279px;
     max-height: auto;
 }
 
 @media screen and (max-width: 1024px) {
-   .gallery__img {
+   .photo-grid__img {
     max-width: 294px;
     max-height: auto;
    }
 }
 
 @media screen and (max-width: 768px) {
-    .gallery__img {
+    .photo-grid__img {
      max-width: 343px;
      max-height: auto;
     }
  }
 
  @media screen and (max-width: 675px) {
-    .gallery__img {
+    .photo-grid__img {
      max-width: 288px;
      max-height: auto;
     }
