@@ -25,8 +25,8 @@
  @media screen and (max-width: 675px) {
     .photo-grid {
      gap: 12px 12px;
-     grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
-     max-width: 100%;
+     grid-template-columns: repeat(auto-fit, minmax(287px, 1fr));
+     max-width: calc(100% - (16px*2));
     }
  }
 

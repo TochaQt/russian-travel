@@ -3,7 +3,6 @@
     display: grid;
     grid-template-columns: auto auto;
     gap: 48px 40px;
-    color: white;
 }
 
 .places__card:first-child {

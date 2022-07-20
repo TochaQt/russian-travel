@@ -1,3 +1,19 @@
 .cover__link {
     text-decoration: none;
+    display: block;
+    width: 1184px;
+    height: 740px;
+    background-image: url(../../../images/cover-trains.jpg);
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 1 / 0.65;
+}
+
+@media screen and (max-width: 1200px) {
+    .cover__link {
+        width: 100%;
+        height: auto;
+    }
 }

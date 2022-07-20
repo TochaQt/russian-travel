@@ -9,20 +9,18 @@
 <body>
     <div class="page">
         <header class="header">
-            <img class="header__logo" alt="Россия" src="images/header-logo.svg">
-            <nav class="header__lang-links">
-                <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
-                <a class="header__lang-link" href="#">En</a>
-            </nav>
+            <img class="header__logo" alt="Логотип" src="images/header-logo.svg">
+            <ul class="header__lang-links">
+                <li class="header__li"><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
+                <li class="header__li"><a class="header__lang-link" href="#">En</a></li>
+            </ul>
         </header>
         <main class="main">
             <section class="lead">
                 <h1 class="lead__title">Путешествия по России</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-                <div class="lead__img-block">
-                    <img src="images/lead-polka.jpg" class="lead__img" alt="Маршрут">
-                    <p class="lead__img-desc">ваша полка — верхняя</p>
-                </div>
+                <img src="images/lead-polka.jpg" class="lead__img" alt="Фотография с проложенным маршрутом">
+                <p class="lead__img-desc">ваша полка — верхняя</p>
             </section>
             <section class="intro">
                 <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -35,25 +33,25 @@
                     <li class="intro__li">Аэропортов <span class="intro__li-span">241</span></li>
                 </ul>
             </section>
-            <div class="photo-grid">
-                <img class="photo-grid__img" src="images/photo-grid-train.jpg" alt="Картинка из галереи">
-                <img class="photo-grid__img" src="images/photo-grid-atharva-tulsi.jpg" alt="Картинка из галереи">
-                <img class="photo-grid__img" src="images/photo-grid-tuman.jpg" alt="Картинка из галереи">
-                <img class="photo-grid__img" src="images/photo-grid-sochi.jpg" alt="Картинка из галереи">
-                <img class="photo-grid__img" src="images/photo-grid-arisa.jpg" alt="Картинка из галереи">
-                <img class="photo-grid__img" src="images/photo-grid-baikal.jpg" alt="Картинка из галереи">
-                <img class="photo-grid__img" src="images/photo-grid-elbrus.jpg" alt="Картинка из галереи">
-                <img class="photo-grid__img" src="images/photo-grid-kondratiev.jpg" alt="Картинка из галереи">
-                <img class="photo-grid__img" src="images/photo-grid-kamchatka-1.jpg" alt="Картинка из галереи">
-                <img class="photo-grid__img" src="images/photo-grid-kamchatka-2.jpg" alt="Картинка из галереи">
-                <img class="photo-grid__img" src="images/photo-grid-baikal-2.jpg" alt="Картинка из галереи">
-                <img class="photo-grid__img" src="images/photo-grid-ergaki.jpg" alt="Картинка из галереи">
-            </div>
+            <section class="photo-grid">
+                <img class="photo-grid__img" src="images/photo-grid-train.jpg" alt="Фотография из поезда">
+                <img class="photo-grid__img" src="images/photo-grid-atharva-tulsi.jpg" alt="Фотография гор">
+                <img class="photo-grid__img" src="images/photo-grid-tuman.jpg" alt="Фотография тумана">
+                <img class="photo-grid__img" src="images/photo-grid-sochi.jpg" alt="Фотография леса">
+                <img class="photo-grid__img" src="images/photo-grid-arisa.jpg" alt="Фотография льда">
+                <img class="photo-grid__img" src="images/photo-grid-baikal.jpg" alt="Фотография Байкала">
+                <img class="photo-grid__img" src="images/photo-grid-elbrus.jpg" alt="Фотография Эльбруса">
+                <img class="photo-grid__img" src="images/photo-grid-kondratiev.jpg" alt="Фотография Кондратьева">
+                <img class="photo-grid__img" src="images/photo-grid-kamchatka-1.jpg" alt="Фотография гор Камчатки">
+                <img class="photo-grid__img" src="images/photo-grid-kamchatka-2.jpg" alt="Фоторграфия гор Камчатки (2)">
+                <img class="photo-grid__img" src="images/photo-grid-baikal-2.jpg" alt="Фотография гор Байкала">
+                <img class="photo-grid__img" src="images/photo-grid-ergaki.jpg" alt="Фотография туманных вершин">
+            </section>
             <section class="places">
                 <div class="places__card">
                     <h3 class="places__title">Куршская коса</h3>
                     <div class="places__link-sect">
-                        <p class="places__link-desc">URL</p>
+                        <p class="places__link-desc">url</p>
                         <a class="places__link" target="_blank" href="http://park-kosa.ru">park-kosa.ru</a>
                     </div>
                     <img class="places__img" src="images/place-kosa.jpg" alt="Куршская коса">
@@ -65,7 +63,7 @@
                 <div class="places__card">
                     <h3 class="places__title">Кольский</h3>
                     <div class="places__link-sect">
-                        <p class="places__link-desc">URL</p>
+                        <p class="places__link-desc">url</p>
                         <a class="places__link" target="_blank" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
                     </div>
                     <img class="places__img" src="images/place-kolsky.jpg" alt="Кольский">
@@ -79,7 +77,7 @@
                 <div class="places__card">
                     <h3 class="places__title">Алтай</h3>
                     <div class="places__link-sect">
-                        <p class="places__link-desc">URL</p>
+                        <p class="places__link-desc">url</p>
                         <a class="places__link" target="_blank" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822">Facebook</a>
                     </div>
                     <img class="places__img" src="images/place-altai.jpg" alt="Алтай">
@@ -92,7 +90,7 @@
                 <div class="places__card">
                     <h3 class="places__title">Зимний Байкал</h3>
                     <div class="places__link-sect">
-                        <p class="places__link-desc">URL</p>
+                        <p class="places__link-desc">url</p>
                         <a class="places__link" target="_blank" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                     </div>
                     <img class="places__img" src="images/place-winter-baikal.jpg" alt="Зимний Байкал">
@@ -106,7 +104,7 @@
                 <div class="places__card">
                     <h3 class="places__title">Карелия</h3>
                     <div class="places__link-sect">
-                        <p class="places__link-desc">URL</p>
+                        <p class="places__link-desc">url</p>
                         <a class="places__link" target="_blank" href="http://vodlozero.ru">http://vodlozero.ru/</a>
                     </div>
                     <img class="places__img" src="images/place-karelia.jpg" alt="Карелия">
@@ -118,13 +116,11 @@
                 </div>
             </section>
             <section class="cover">
-                <a class="cover__link" href="#">
-                    <div class="cover__content">
-                        <div  class="cover__overlay">                 
-                            <h2 class="cover__title">До Байкала «на собаках»</h2>
-                            <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-                        </div> 
-                    </div>
+                <a class="cover__link" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+                    <div  class="cover__overlay">                 
+                        <h2 class="cover__title">До Байкала «на собаках»</h2>
+                        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+                    </div> 
                 </a>
             </section>
         </main>

@@ -6,6 +6,7 @@
     font-size: 18px;
     line-height: 163%;
     max-width: 484px;
+    color: white;
 }
 
 .places__text:last-child {
@@ -23,12 +24,5 @@
     .places__text {
         font-size: 16px;
         max-width: 352px;
-    }
- }
-
- @media screen and (max-width: 675px) {
-    .places__text {
-    padding: 0 16px;
-    max-width: 100%;
     }
  }

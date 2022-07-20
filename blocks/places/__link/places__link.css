@@ -12,9 +12,3 @@
 .places__link:hover {
     opacity: 0.8;
 }
-
-@media screen and (max-width: 675px) {
-    .places__link {
-    padding: 0 16px;
-    }
- }
